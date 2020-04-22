@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+#quote-box {
+    margin-top: -120px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 650px;
+    padding: 1.9em 4em;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.425);
+    line-height: 1.5;
+    
+    #text{
+        font-size: 1.4em;
+        text-align: center;
+        .comillas{
+
+            font-size: 1.2em;
+            padding: 0px 2px 0px 2px;
+            font-family: 'Sigmar One', cursive;
+            color: rgb(175, 175, 175);
+        }
+    }
+    #author{
+        text-align: right;
+        color: rgb(120, 118, 131);
+        font-size: 1.25em;
+    }
+    .botones{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .twitterIcon{
+            margin-left: 55px;
+            font-size: 2.9em;
+            i{
+                color: rgb(18, 136, 214)
+            }
+        }
+    }
+    
+}
